@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  background-color: #121a2d;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+h1::before {
+  content: 'Zyrenth.dev';
+}
+
+svg {
+  position: absolute;
+}
+
+svg.bottom {
+  bottom: -175px;
+  left: -700px;
+}
+
+svg.top {
+  top: -175px;
+  right: -700px;
+}
+
+@media (max-width: 700px) {
+  h1::before {
+    content: 'ZDev';
+  }
+
+  svg.bottom {
+    left: -600px;
+  }
+
+  svg.top {
+    right: -600px;
+  }
+}
