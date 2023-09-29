@@ -1,0 +1,2 @@
+# .pages
+zyrenth.dev
